@@ -5,6 +5,7 @@
 ***Our technical [report](Multimodal_Graph_Representation_Learning_For_Website_Generation_Based_on_Visual_Sketch.pdf)***
 </div>
 
+Design2Code is a challenging problem as it requires extensive datasets and significant computing resources. Even using prompting methods involves costs associated with accessing Large Vision-Language Model APIs. I hope that, in the future, these limitations can be addressed in ways so that we can continue develop and scale out this project.
 # Overview
 
 ![gvlm](architecture.png)
