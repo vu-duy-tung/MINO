@@ -1,0 +1,15 @@
+name: graphui2code
+description: "Graph UI to Code"
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/Paddle/ 
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.10
+  - git
+  - nvidia/label/cuda-11.7.0::cuda-toolkit
+  - conda-forge::cudnn
+  - paddlepaddle-gpu==2.6.0
+  - pip
+  - pip:
+    - -r requirements.txt
